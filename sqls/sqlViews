@@ -1,0 +1,70 @@
+
+//view responsaavel pelos tensiomentros de 1 a 4
+
+CREATE or REPLACE view viewBloco1 as
+select t.id , t.sensor1 , t.data, t.time,
+       t2.sensor2,
+       t3.sensor3,
+       t4.sensor4
+from tensiometro1 t join tensiometro2 t2
+on t.id = t2.id
+join tensiometro3 t3
+on t2.id = t3.id
+join tensiometro4 t4
+on t3.id = t4.id
+
+//view responsaavel pelos tensiomentros de 5 a 8
+
+CREATE or REPLACE view viewBloco2 as
+select t5.id , t5.sensor5 , t5.data, t5.time,
+       t6.sensor6,
+       t7.sensor7,
+       t8.sensor8
+from tensiometro5 t5 join tensiometro6 t6
+on t5.id = t6.id
+join tensiometro3 t7
+on t6.id = t7.id
+join tensiometro4 t8
+on t7.id = t8.id
+
+//view responsaavel pelos tensiomentros de 9 a 12
+
+CREATE or REPLACE view viewBloco3 as
+select t9.id , t9.sensor9 , t9.data, t9.time,
+       t10.sensor10,
+       t11.sensor11,
+       t11.sensor11
+from tensiometro9 t9 join tensiometro10 t10
+on t9.id = t10.id
+join tensiometro11 t11
+on t10.id = t11.id
+join tensiometro4 t12
+on t11.id = t12.id
+
+//view responsaavel pelos tensiomentros de 13 a 16
+
+CREATE or REPLACE view viewBloco4 as
+select t13.id , t13.sensor13 , t13.data, t13.time,
+       t14.sensor14,
+       t15.sensor15,
+       t16.sensor16
+from tensiometro13 t13 join tensiometro14 t14
+on t13.id = t14.id
+join tensiometro15 t15
+on t14.id = t15.id
+join tensiometro16 t16
+on t15.id = t16.id
+
+//view responsaavel pelos tensiomentros de 17 a 20
+
+CREATE or REPLACE view viewBloco5 as
+select t17.id , t17.sensor17 , t17.data, t17.time,
+       t18.sensor18,
+       t19.sensor19,
+       t20.sensor20
+from tensiometro17 t17 join tensiometro18 t18
+on t17.id = t18.id
+join tensiometro19 t19
+on t18.id = t19.id
+join tensiometro20 t20
+on t19.id = t20.id

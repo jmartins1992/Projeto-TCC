@@ -1,0 +1,60 @@
+#include <ESP8266WiFi.h>
+
+// Nome da sua rede Wifi
+const char* ssid = "JMartins";
+// Senha da rede
+const char* password = "3534333231";
+
+// servido que receberá os dados que no nosso caso é o ip que esta instalado o lampp/
+const char* host = "192.168.1.7";
+
+void setup() {
+  // Iniciando o Serial
+  Serial.begin(115200);
+  
+ 
+  // Conectando na rede wifi
+  Serial.println("");
+  Serial.print("Conectando");
+  WiFi.begin(ssid, password);  
+
+  //verifica se esta senha e ssid ta igual da rede
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(".");
+  }
+  Serial.println("");
+  Serial.print("Conectado a rede: ");
+  Serial.println(ssid);
+}
+void loop() {
+  
+  // Criando uma conexao TCP
+  WiFiClient client;
+  const int httpPort = 80;
+  if (!client.connect(host, httpPort)) {
+    return;
+  }
+  
+  // Lendo a quantidade de ohms atraves do pino A0
+    int analog = analogRead(A0);
+
+ //calculo convertido para Voltz
+    float temp = analog*(3.2 / 1023);
+    
+    
+  
+ 
+ // Enviando para o host a temperatura lida.
+client.print(String("GET /ProjetoTCC/conecta11.php?valor=") + temp + " HTTP/1.1\r\n" +
+               "Host: " + host + "\r\n" + 
+               "Connection: close\r\n\r\n");
+  
+                      
+  
+  // Repetindo a cada 1 minuto
+  delay(720000);
+  Serial.print("Valor enviado: ");
+  Serial.println(temp);
+  
+}

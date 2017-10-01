@@ -1,0 +1,177 @@
+CREATE TABLE `projetoirrigacao`.`tensiometro1` 
+( `id` INT NOT NULL AUTO_INCREMENT , 
+`data` DATE NOT NULL , `time` TIME NOT NULL , 
+`sensor1` FLOAT((10,3)) 
+NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+--
+
+CREATE TABLE `projetoirrigacao`.`tensiometro2` 
+( `id` INT NOT NULL AUTO_INCREMENT , 
+`data` DATE NOT NULL , `time` TIME NOT NULL , 
+`sensor2` FLOAT((10,3)) 
+NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+--
+
+CREATE TABLE `projetoirrigacao`.`tensiometro3` 
+( `id` INT NOT NULL AUTO_INCREMENT , 
+`data` DATE NOT NULL , `time` TIME NOT NULL , 
+`sensor3` FLOAT((10,3)) 
+NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+--
+
+CREATE TABLE `projetoirrigacao`.`tensiometro4` 
+( `id` INT NOT NULL AUTO_INCREMENT , 
+`data` DATE NOT NULL , `time` TIME NOT NULL , 
+`sensor4` FLOAT((10,3)) 
+NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+--
+
+
+CREATE TABLE `projetoirrigacao`.`tensiometro5` 
+( `id` INT NOT NULL AUTO_INCREMENT , 
+`data` DATE NOT NULL , `time` TIME NOT NULL , 
+`sensor5` FLOAT((10,3)) 
+NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+--
+
+CREATE TABLE `projetoirrigacao`.`tensiometro6` 
+( `id` INT NOT NULL AUTO_INCREMENT , 
+`data` DATE NOT NULL , `time` TIME NOT NULL , 
+`sensor6` FLOAT((10,3)) 
+NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+--
+
+CREATE TABLE `projetoirrigacao`.`tensiometro7` 
+( `id` INT NOT NULL AUTO_INCREMENT , 
+`data` DATE NOT NULL , `time` TIME NOT NULL , 
+`sensor7` FLOAT((10,3)) 
+NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+--
+
+CREATE TABLE `projetoirrigacao`.`tensiometro8` 
+( `id` INT NOT NULL AUTO_INCREMENT , 
+`data` DATE NOT NULL , `time` TIME NOT NULL , 
+`sensor8` FLOAT((10,3)) 
+NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+--
+
+CREATE TABLE `projetoirrigacao`.`tensiometro9` 
+( `id` INT NOT NULL AUTO_INCREMENT , 
+`data` DATE NOT NULL , `time` TIME NOT NULL , 
+`sensor9` FLOAT((10,3)) 
+NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+--
+
+CREATE TABLE `projetoirrigacao`.`tensiometro10` 
+( `id` INT NOT NULL AUTO_INCREMENT , 
+`data` DATE NOT NULL , `time` TIME NOT NULL , 
+`sensor10` FLOAT((10,3)) 
+NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+--
+
+CREATE TABLE `projetoirrigacao`.`tensiometro11` 
+( `id` INT NOT NULL AUTO_INCREMENT , 
+`data` DATE NOT NULL , `time` TIME NOT NULL , 
+`sensor11` FLOAT((10,3)) 
+NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+--
+
+CREATE TABLE `projetoirrigacao`.`tensiometro12` 
+( `id` INT NOT NULL AUTO_INCREMENT , 
+`data` DATE NOT NULL , `time` TIME NOT NULL , 
+`sensor12` FLOAT((10,3)) 
+NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+--
+
+CREATE TABLE `projetoirrigacao`.`tensiometro13` 
+( `id` INT NOT NULL AUTO_INCREMENT , 
+`data` DATE NOT NULL , `time` TIME NOT NULL , 
+`sensor13` FLOAT((10,3)) 
+NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+--
+
+CREATE TABLE `projetoirrigacao`.`tensiometro14` 
+( `id` INT NOT NULL AUTO_INCREMENT , 
+`data` DATE NOT NULL , `time` TIME NOT NULL , 
+`sensor14` FLOAT((10,3)) 
+NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+--
+
+CREATE TABLE `projetoirrigacao`.`tensiometro15` 
+( `id` INT NOT NULL AUTO_INCREMENT , 
+`data` DATE NOT NULL , `time` TIME NOT NULL , 
+`sensor15` FLOAT((10,3)) 
+NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+--
+
+CREATE TABLE `projetoirrigacao`.`tensiometro16` 
+( `id` INT NOT NULL AUTO_INCREMENT , 
+`data` DATE NOT NULL , `time` TIME NOT NULL , 
+`sensor16` FLOAT((10,3)) 
+NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+--
+
+CREATE TABLE `projetoirrigacao`.`tensiometro17` 
+( `id` INT NOT NULL AUTO_INCREMENT , 
+`data` DATE NOT NULL , `time` TIME NOT NULL , 
+`sensor17` FLOAT((10,3)) 
+NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+--
+
+CREATE TABLE `projetoirrigacao`.`tensiometro18` 
+( `id` INT NOT NULL AUTO_INCREMENT , 
+`data` DATE NOT NULL , `time` TIME NOT NULL , 
+`sensor18` FLOAT((10,3)) 
+NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+--
+
+CREATE TABLE `projetoirrigacao`.`tensiometro19` 
+( `id` INT NOT NULL AUTO_INCREMENT , 
+`data` DATE NOT NULL , `time` TIME NOT NULL , 
+`sensor19` FLOAT((10,3)) 
+NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
+
+
+--
+
+CREATE TABLE `projetoirrigacao`.`tensiometro20` 
+( `id` INT NOT NULL AUTO_INCREMENT , 
+`data` DATE NOT NULL , `time` TIME NOT NULL , 
+`sensor20` FLOAT((10,3)) 
+NOT NULL , PRIMARY KEY (`id`)) ENGINE = InnoDB;
